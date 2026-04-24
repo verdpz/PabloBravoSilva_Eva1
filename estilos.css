@@ -47,9 +47,10 @@ body::before {
     background: inherit;
     z-index: -1;
     animation: flicker 3s infinite;
+    text-align: center;
 }
 /*  SECCIÓN HERO  */
-.hero-image {
+.hero-image a{
     display: flex;
     justify-content: center;
     margin-top: 20px;
