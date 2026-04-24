@@ -1,0 +1,59 @@
+/* --- ESTILOS GENERALES Y ACCESIBILIDAD --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #0f172a;
+    margin: 0;
+    padding: 20px;
+}
+/* --- SECCIÓN HERO --- */
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-interactiva {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.img-interactiva:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #38bdf8;
+}
+/* --- SECCIÓN DE TARJETAS (CARDS) --- */
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+}
+.card {
+    background-color: #1e293b;
+    border: 1px solid #38bdf8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+    background-color: #334155;
+    transform: translateY(-5px); /* Efecto interactivo adicional */
+}
+/* --- FOOTER Y ENLACES --- */
+footer {
+    text-align: center;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+}
+.links-educativos a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links-educativos a:hover {
+    text-decoration: underline;
+}
